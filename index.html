@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Travel Agency</title>
+  </head>
+  <body bgcolor="Yellow">
+    <h1>
+      <center><font color="#ff0000">MINHAS TRAVEL AGENCY</font></center>
+    </h1>
+    <hr size="10" width="50%" color="blue" />
+    <h2><font color="#000066">Customer Information Form</font></h2>
+    <h4>
+      Please provide the following information so we can help you with your
+      travel needs
+    </h4>
+    <form method="post" action="mailto:minhasds@gmail.com">
+      Your Name: <input type="text" name="urname" size="30" maxlength="20" />
+      <br /><br />
+      Address: <input type="text" name="address" size="60" maxlength="50" />
+      <br /><br />
+      Mobile: <input type="text" name="mobile" size="10" maxlength="10" />
+      <br /><br />
+      Comment:
+      <br />
+      <textarea name="comments" rows="4" cols="50" wrap></textarea>
+      <br /><br />Service:
+      <input type="checkbox" name="service" value="Flight" checked />Flight
+      <input type="checkbox" name="service" value="Hotel" />Hotel
+      <input type="checkbox" name="service" value="Car" />Car
+      <br /><br />Returning customer:
+      <input type="radio" name="return" value="Yes" checked />Yes
+      <input type="radio" name="return" value="No" />No
+      <input type="radio" name="return" value="Maybe" />May be <br /><br />
+      Continent:
+      <select name="Continent" size="3">
+        <option value="Africa">Africa</option>
+        <option value="Asia">Asia</option>
+        <option value="Australia">Australia</option>
+        <option value="Europe">Europe</option>
+        <option value="North America" selected>North America</option>
+      </select>
+      <p>
+        <input type="submit" />
+        <input type="reset" />
+      </p>
+    </form>
+  </body>
+</html>
